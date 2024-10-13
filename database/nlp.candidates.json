@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "66e2182112330b4d26c73bf8"
+  },
+  "first_name": "Jane",
+  "last_name": "Smith",
+  "email": "jane.smith@example.com",
+  "phone": "987-654-3210",
+  "resume_url": "http://example.com/resume.pdf",
+  "password": "11111",
+  "created_at": "Wed, 11 Sep 2024 22:22:25 GMT",
+  "updated_at": "Wed, 11 Sep 2024 22:22:25 GMT",
+  "cv": "/profile/uploads/cv/Rajagopal_S_Resume.pdf",
+  "profile_picture": "/profile/uploads/background.jpg",
+  "adresse": "mks"
+}]

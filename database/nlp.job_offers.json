@@ -1,0 +1,124 @@
+[{
+  "_id": {
+    "$oid": "66e2187b12330b4d26c73bfa"
+  },
+  "title": "Senior Data Scientist",
+  "description": "We are looking for an experienced Data Scientist to lead our analytics team and drive data-driven decisions.",
+  "requirements": "5+ years of experience in data science, proficiency in Python and SQL, experience with machine learning models.",
+  "salary": 120000,
+  "company_name": "Tech Innovators",
+  "location": "New York, NY",
+  "posted_by": {
+    "$oid": "66e2185312330b4d26c73bf9"
+  },
+  "created_at": {
+    "$date": "2024-09-11T22:23:55.510Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ec784f5e3f2b079fee2867"
+  },
+  "title": "Software Engineer",
+  "description": "Develop and maintain software applications...",
+  "requirements": "Python, Java, C++",
+  "salary": 34000,
+  "company_name": "SFT",
+  "location": " France",
+  "posted_by": {
+    "$oid": "66e2185312330b4d26c73bf9"
+  },
+  "created_at": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ec784f5e3f2b079fee2868"
+  },
+  "title": "Data Scientist",
+  "description": "Expérience avec Python, machine learning, analyse de données.",
+  "requirements": "Python, Java, SQL, scikit-learn, numpy, scipy, Flask, AWS; Degree: Master en Science des Données ou domaine connexe",
+  "salary": null,
+  "company_name": null,
+  "location": null,
+  "posted_by": null,
+  "created_at": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ec784f5e3f2b079fee2869"
+  },
+  "title": "Ingénieur Logiciel",
+  "description": "Expérience en Java, développement de logiciels, informatique en nuage.",
+  "requirements": "Java, Développement Logiciel, Informatique en Nuage; Degree: Diplôme d'Ingénieur en Informatique ou équivalent",
+  "salary": null,
+  "company_name": null,
+  "location": null,
+  "posted_by": null,
+  "created_at": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ec784f5e3f2b079fee286a"
+  },
+  "title": "Ingénieur en Machine Learning",
+  "description": "Expertise en deep learning, Python, TensorFlow, PyTorch.",
+  "requirements": "Deep Learning, Python, TensorFlow, PyTorch, Vision par Ordinateur, scikit-learn; Degree: Master en Intelligence Artificielle, Machine Learning ou domaine connexe",
+  "salary": null,
+  "company_name": null,
+  "location": null,
+  "posted_by": null,
+  "created_at": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ec784f5e3f2b079fee286b"
+  },
+  "title": "Enseignant en Mathématiques",
+  "description": "Enseignement des mathématiques au niveau secondaire, préparation des cours, évaluation des élèves, participation aux réunions pédagogiques.",
+  "requirements": "Pédagogie, Mathématiques, Communication, Gestion de classe, Organisation",
+  "salary": null,
+  "company_name": null,
+  "location": null,
+  "posted_by": null,
+  "created_at": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ec784f5e3f2b079fee286c"
+  },
+  "title": "Avocat en Droit des Affaires",
+  "description": "Expertise en droit commercial, conseil juridique aux entreprises, rédaction de contrats, représentation devant les tribunaux.",
+  "requirements": "Droit Commercial, Rédaction de Contrats, Négociation, Plaidoirie, Analyse Juridique",
+  "salary": null,
+  "company_name": null,
+  "location": null,
+  "posted_by": null,
+  "created_at": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ec784f5e3f2b079fee286d"
+  },
+  "title": "Infirmière Diplômée",
+  "description": "Fournir des soins infirmiers aux patients, surveiller les signes vitaux, administrer des médicaments, collaborer avec les médecins.",
+  "requirements": "Soins Infirmiers, Administration de Médicaments, Surveillance des Patients, Collaboration Médicale, Gestion du Stress",
+  "salary": null,
+  "company_name": null,
+  "location": null,
+  "posted_by": null,
+  "created_at": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  }
+}]

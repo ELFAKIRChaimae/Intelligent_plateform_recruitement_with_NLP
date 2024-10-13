@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "66f0b75770be347c02b4f0d0"
+  },
+  "candidate_id": {
+    "$oid": "66e2182112330b4d26c73bf8"
+  },
+  "offer_id": {
+    "$oid": "66e2187b12330b4d26c73bfa"
+  },
+  "score": 4.96
+},
+{
+  "_id": {
+    "$oid": "66f136c5b1d9edee386f802c"
+  },
+  "candidate_id": {
+    "$oid": "66e2182112330b4d26c73bf8"
+  },
+  "offer_id": {
+    "$oid": "66ec784f5e3f2b079fee2868"
+  },
+  "score": 17.6
+},
+{
+  "_id": {
+    "$oid": "66f13e2d21cadc49704c969d"
+  },
+  "candidate_id": {
+    "$oid": "66e2182112330b4d26c73bf8"
+  },
+  "offer_id": {
+    "$oid": "66ec784f5e3f2b079fee2868"
+  },
+  "score": 7.2
+}]
