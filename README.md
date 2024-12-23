@@ -5,7 +5,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Demo](#demo)
 
 ---
 
