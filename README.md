@@ -1,56 +1,59 @@
-# LP Recrutement
+E-Recruitment
+📚 Table of Contents
 
-📚 **Table des matières**
-- [Description](#-description)
-- [Fonctionnalités](#-fonctionnalités)
-- [Technologies utilisées](#️-technologies-utilisées)
-- [Installation](#-installation)
-- [Démo](#-démo)
+Description
+Features
+Technologies Used
+Installation
+Demo
+✨ Description
+E-Recruitment is an innovative platform that leverages Natural Language Processing (NLP) to automate the recruitment process. It enables recruiters to create job postings and candidates to submit their resumes. The application calculates the similarity between resumes and job offers, optimizing the selection process and improving the overall efficiency of recruitment.
 
----
+🔥 Features
+For Recruiters
+Create Job Postings:
+Add details such as job description, salary, and required skills.
+For Candidates
+Submit Resume:
+Candidates can upload their resume to apply directly to job offers.
+NLP Analysis
+Similarity Calculation:
+Method: Uses the BERT model to encode the text of resumes and job offers.
+Tool: Cosine similarity calculation with sklearn.
+Tests for Candidates:
+Method: Generates technical questions based on resumes and job descriptions using the Llama model.
+Tool: Groq API to generate questions and evaluate answers.
+⚙️ Technologies Used
+Frontend: React for the user interface.
+Backend: Flask for handling APIs and server-side services.
+Database: MongoDB for data storage.
+NLP:
+Text Encoding: BERT model to process resumes and job descriptions.
+Question Generation: Groq API with the Llama model.
+Answer Evaluation: Cosine similarity calculation with sklearn.
+📦 Installation
+Step 1: Clone the repository
+bash
+Copier le code
+git clone https://github.com/your-username/LP-Recruitment.git
+cd LP-Recruitment
+Step 2: Install dependencies
+bash
+Copier le code
+# Install frontend dependencies
+cd frontend
+npm install
 
-## ✨ Description
-LP Recrutement est une application innovante qui utilise le traitement du langage naturel (NLP) pour faciliter le processus de recrutement. Elle permet aux recruteurs de créer des offres d'emploi et aux candidats de soumettre leur CV. L'application calcule la similarité entre les CVs et les offres d'emploi, optimisant ainsi le processus de sélection.
+# Install backend dependencies
+cd ../backend
+pip install -r requirements.txt
+Step 3: Run the application
+bash
+Copier le code
+# Start the backend server
+cd backend
+flask run
 
----
-
-## 🔥 Fonctionnalités
-### **Pour les recruteurs** 
-- **Création d'offres d'emploi** : 
-  - Ajout de détails tels que la description, le salaire et les compétences requises.
-
-### **Pour les candidats**
-- **Soumission de CV** :
-  - Les candidats peuvent télécharger leur CV pour postuler directement aux offres.
-
-### **Analyse NLP**
-- **Calcul de similarité** :
-  - **Méthode** : Utilise le modèle BERT pour encoder les textes des CVs et des offres d'emploi.
-  - **Outil** : Calcul de similarité cosinus avec `sklearn`.
-- **Tests pour les candidats** :
-  - **Méthode** : Génération de questions techniques basées sur les CVs et descriptions de postes en utilisant le modèle Llama.
-  - **Outil** : API Groq pour générer des questions et évaluer les réponses.
-
----
-
-## ⚙️ Technologies utilisées
-- **Frontend** : React pour l'interface utilisateur.
-- **Backend** : Flask pour la gestion des API et services côté serveur.
-- **Base de données** : MongoDB pour le stockage des données.
-- **NLP** :
-  - **Encodage de texte** : Modèle BERT pour traiter les CVs et les offres d'emploi.
-  - **Génération de questions** : API Groq avec le modèle Llama.
-  - **Évaluation des réponses** : Calcul de similarité cosinus avec `sklearn`.
-
----
-
-## 📦 Installation
-
-### Étape 1 : Cloner le dépôt
-```bash
-git clone https://github.com/votre-utilisateur/LP-Recrutement.git
-cd LP-Recrutement
-
-## Interface 
-
-
+# Start the frontend server
+cd frontend
+npm start
